@@ -403,7 +403,7 @@ of_match_members = dict(
         print_type="PRIx8",
         conditions="",
         takes_mask_in_spec=False,
-        order=800,
+        order=600,
         ),
 
     dst_class_id = dict(
@@ -414,7 +414,7 @@ of_match_members = dict(
         print_type="PRIx8",
         conditions="",
         takes_mask_in_spec=False,
-        order=800,
+        order=601,
         ),
 )
 
