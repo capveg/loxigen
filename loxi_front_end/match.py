@@ -395,8 +395,8 @@ of_match_members = dict(
         order=501,
         ),
 
-    src_class_id = dict(
-        name="src_class_id",
+    src_meta_id = dict(
+        name="src_meta_id",
         m_type="uint8_t",
         v1_wc_shift=23,
         v2_wc_shift=23,
@@ -406,8 +406,8 @@ of_match_members = dict(
         order=600,
         ),
 
-    dst_class_id = dict(
-        name="dst_class_id",
+    dst_meta_id = dict(
+        name="dst_meta_id",
         m_type="uint8_t",
         v1_wc_shift=24,
         v2_wc_shift=24,
@@ -434,8 +434,8 @@ of_v1_keys = [
     "tcp_src",  # Means UDP too for 1.0 and 1.1
     "vlan_pcp",
     "vlan_vid",
-    "src_class_id",
-    "dst_class_id",
+    "src_meta_id",
+    "dst_meta_id",
     ]
 
 of_v2_keys = [
